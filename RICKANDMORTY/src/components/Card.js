@@ -21,7 +21,7 @@ export default class Card extends Component {
     }
 
     dotheOtherThing = () => {
-        return this.state.showAttributes ? <Attributes character={this.props.character}/> : 'CLICK ME'
+        return this.state.showAttributes ? <Attributes character={this.props.character}/> : 'ClICK ME'
     }
     render(){
         const {character} = this.props
