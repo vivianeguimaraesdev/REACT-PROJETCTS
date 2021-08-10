@@ -8,6 +8,11 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: url('./img/galaxy.jpg');
+  background-size: cover;
+  background-repeat: repeat;
 }
